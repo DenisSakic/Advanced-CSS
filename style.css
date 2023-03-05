@@ -1,14 +1,11 @@
-/* style links pointing to Google in green */
 a[href^="https://www.google"], a[href^="http://www.google"] {
     color: green;
   }
   
-  /* style link pointing to LINK group in red */
   a[href^="https://www.link-group.eu/"] {
     color: red;
   }
   
-  /* style paragraphs inside the second-div element alternately in red and blue */
   #second-div p:nth-of-type(odd) {
     color: red;
   }
@@ -17,13 +14,11 @@ a[href^="https://www.google"], a[href^="http://www.google"] {
     color: blue;
   }
   
-  /* add - NEW to the end of paragraphs 2 and 3, in yellow */
   #first-div p:nth-of-type(2)::after, #first-div p:nth-of-type(3)::after {
     content: " - NEW";
     color: yellow;
   }
   
-  /* mouseover on paragraph 10, its text should become italic */
   #third-div p:last-of-type:hover {
     font-style: italic;
   }
