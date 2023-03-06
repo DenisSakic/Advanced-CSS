@@ -19,7 +19,7 @@ a[href^="https://www.google"], a[href^="http://www.google"] {
     color: yellow;
   }
   
-  #third-div p:last-of-type:hover {
+  p:last-of-type:hover {
     font-style: italic;
   }
   
